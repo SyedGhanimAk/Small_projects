@@ -1,0 +1,102 @@
+* {
+    transition: .2s;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgba(6, 109, 6);
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 2rem;
+    margin: auto;
+    padding: 2rem;
+    height: 36rem;
+    width: 25rem;
+}
+
+.first-row button,
+.operator {
+    color: rgba(172, 255, 47, 0.8);
+}
+
+.equal {
+    background-color: rgba(255, 136, 0, 0.9);
+}
+
+.equal:active {
+    background-color: rgba(255, 136, 0, 0.85);
+}
+
+
+input {
+    border: none;
+    appearance: none;
+    width: 95%;
+    text-align: end;
+    height: 8rem;
+    font-size: 5rem;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.material-symbols-outlined {
+
+    top: 1px;
+    font-size: 2.35rem;
+    color: rgba(172, 255, 47, 0.8);
+}
+
+button {
+
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    appearance: none;
+    height: 5.2rem;
+    margin: .3rem;
+    width: 5.2rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: none;
+
+
+}
+
+button:hover {
+
+    box-shadow: -8px -8px 12px rgba(20, 20, 20, 0.5);
+}
+
+button:active {
+    box-shadow: -6px -6px 10px rgba(20, 20, 20, 0.5);
+    transform: scale(.98);
+}
+
+.icon {
+    position: relative;
+    top: .4rem;
+}
+
+.fontsize {
+    font-size: 10px;
+}
